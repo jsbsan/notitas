@@ -1,0 +1,17 @@
+' Gambas class file
+
+' 
+Property valor As Variant
+Private hvalor As Variant
+
+Private Function valor_Read() As Variant
+  
+  Return hvalor
+  
+End
+
+Private Sub valor_Write(Value As Variant)
+  
+  hvalor = value
+  
+End

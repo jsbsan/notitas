@@ -1,0 +1,66 @@
+' Gambas class file
+
+Public ventana As New ClassPantalla
+Public datos As New ClassDato
+Private posicion As Integer
+
+Public Sub ToolButtonSalir_Click()
+  
+End
+
+Public Sub ToolButtonSalir2_Click()
+  
+  FormConfigurar.posicion = datos
+  FormConfigurar.ShowModal()
+  Me.configura(datos.valor)
+  
+End
+
+Public Sub ToolButtonAnadir_Click()
+  
+  ModuleGestor.nueva()
+  
+End
+
+Public Sub Form_Open()
+  
+End
+
+Public Sub configura(posicion As Integer)
+  
+  Dim pos As Integer
+  
+  Print ventana.x, ventana.y, ventana.w, ventana.h
+  pos = posicion
+  
+  Select pos
+    Case 1
+      'izd sup
+      'no hacer nada
+    Case 2
+      'izd cen
+      Me.Arrangement = 2
+      Me.x = 0
+      Me.y = ventana.h / 2 - 40
+    Case 4
+      'cen sup
+      
+      'Me.Arrangement = 1
+      'Me.y = 0.01
+      'Me.x = ventana.w / 2 - 40
+    Case 7
+      'der cen
+      Me.Arrangement = 2
+      Me.y = ventana.h / 2 - 40
+      
+      Me.x = ventana.w
+      
+  End Select
+  
+End
+
+Public Sub Form_Move()
+  
+  Print Me.x, Me.y, Me.h, Me.w
+  
+End

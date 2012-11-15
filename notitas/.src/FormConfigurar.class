@@ -1,0 +1,19 @@
+' Gambas class file
+
+Public posicion As ClassDato
+
+Public Sub Form_Open()
+  
+  ' Me.x = 0
+  ' Me.y = 0
+  
+End
+
+Public Sub ToolButton1_Click()
+  
+  If RadioButtonIzqCen.Value = True Then posicion.valor = 2
+  If RadioButtonCenSup.value = True Then posicion.valor = 4
+  If RadioButtonDerCen.value = True Then posicion.valor = 7
+  Me.Close
+  
+End
