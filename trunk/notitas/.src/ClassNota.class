@@ -1,0 +1,116 @@
+' Gambas class file
+
+Property texto As String '' 'Contenido de la nota
+Property X As Integer
+Property Y As Integer
+Property w As Integer
+Property h As Integer
+Property colorfondo As Integer
+Property colorletra As Integer
+Property grupo As String
+
+Private htexto As String
+Private hx As Integer
+Private hy As Integer
+Private hw As Integer
+Private hh As Integer
+Private hcolorfondo As Integer
+Private hcolorletra As Integer
+
+Private hgrupo As Integer
+
+Private Function texto_Read() As String
+  
+  Return htexto
+  
+End
+
+Private Sub texto_Write(Value As String)
+  
+  htexto = Value
+  
+End
+
+Private Function X_Read() As Integer
+  
+  Return hx
+  
+End
+
+Private Sub X_Write(Value As Integer)
+  
+  hx = Value
+  
+End
+
+Private Function Y_Read() As Integer
+  
+  Return hy
+  
+End
+
+Private Sub Y_Write(Value As Integer)
+  
+  hy = Value
+  
+End
+
+Private Function w_Read() As Integer
+  
+  Return hw
+  
+End
+
+Private Sub w_Write(Value As Integer)
+  
+  hw = Value
+  
+End
+
+Private Function h_Read() As Integer
+  
+  Return hh
+  
+End
+
+Private Sub h_Write(Value As Integer)
+  
+  hh = Value
+  
+End
+
+Private Function colorfondo_Read() As Integer
+  
+  Return hcolorfondo
+  
+End
+
+Private Sub colorfondo_Write(Value As Integer)
+  
+  hcolorfondo = Value
+  
+End
+
+Private Function colorletra_Read() As Integer
+  
+  Return hcolorletra
+  
+End
+
+Private Sub colorletra_Write(Value As Integer)
+  
+  hcolorletra = Value
+  
+End
+
+Private Function grupo_Read() As String
+  
+  Return hgrupo
+  
+End
+
+Private Sub grupo_Write(Value As String)
+  
+  hgrupo = Value
+  
+End

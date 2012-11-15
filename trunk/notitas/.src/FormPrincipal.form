@@ -1,0 +1,29 @@
+# Gambas Form File 3.0
+
+{ Form Form
+  MoveScaled(0,0,34,17)
+  Icon = Picture["notas24x24.png"]
+  Resizable = False
+  Arrangement = Arrange.Vertical
+  AutoResize = True
+  { ToolButtonAnadir ToolButton
+    MoveScaled(2,1,6,7)
+    Picture = Picture["icon:/32/add"]
+    Border = True
+  }
+  { ToolButtonSalir ToolButton
+    MoveScaled(18,2,6,7)
+    Picture = Picture["icon:/32/quit"]
+    Border = True
+  }
+  { ToolButtonSalir3 ToolButton
+    MoveScaled(10,9,6,7)
+    Picture = Picture["ver.png"]
+    Border = True
+  }
+  { ToolButtonSalir2 ToolButton
+    MoveScaled(10,2,6,7)
+    Picture = Picture["icon:/32/component"]
+    Border = True
+  }
+}

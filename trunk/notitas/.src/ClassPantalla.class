@@ -1,0 +1,60 @@
+' Gambas class file
+
+Property x As Integer
+Property y As Integer
+
+Property h As Integer
+Property w As Integer
+
+Private hx As Integer
+Private hy As Integer
+Private hh As Integer
+Private hw As Integer
+
+Private Function x_Read() As Integer
+  
+  Return hx
+  
+End
+
+Private Sub x_Write(Value As Integer)
+  
+  hx = Value
+  
+End
+
+Private Function y_Read() As Integer
+  
+  Return hy
+  
+End
+
+Private Sub y_Write(Value As Integer)
+  
+  hy = Value
+  
+End
+
+Private Function h_Read() As Integer
+  
+  Return hh
+  
+End
+
+Private Sub h_Write(Value As Integer)
+  
+  hh = Value
+  
+End
+
+Private Function w_Read() As Integer
+  
+  Return hw
+  
+End
+
+Private Sub w_Write(Value As Integer)
+  
+  hw = value
+  
+End

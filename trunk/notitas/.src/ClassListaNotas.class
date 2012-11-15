@@ -1,0 +1,16 @@
+' Gambas class file
+
+Property lista As ClassNota[]
+Private hlista As New ClassNota[]
+
+Private Function lista_Read() As ClassNota[]
+  
+  Return hlista
+  
+End
+
+Private Sub lista_Write(Value As ClassNota[])
+  
+  hlista = Value
+  
+End

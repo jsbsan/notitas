@@ -1,0 +1,30 @@
+' Gambas module file
+
+Private ListaNotas As ClassListaNotas
+Private notatemp As ClassNota
+
+Public Sub main()
+  'lectura de la configuracion de la barra
+  'una vez leida, modifico las propiedades del formulario principal
+  ' 
+  'lectura de notas
+  ' listanotas=LeerNotasAnteriores()
+  
+  FormPrincipal.ventana.x = Screen.X
+  FormPrincipal.ventana.y = Screen.y
+  FormPrincipal.ventana.w = Screen.w
+  FormPrincipal.ventana.h = Screen.h
+  FormPrincipal.datos.valor = 7
+  FormPrincipal.configura(FormPrincipal.datos.valor)
+  FormPrincipal.Show()
+  
+End
+
+Public Sub nueva()
+
+  Dim formulario As New FormNota
+  
+  'añadimos una nota a la lista
+  formulario.Show()
+  
+End

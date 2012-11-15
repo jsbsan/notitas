@@ -1,0 +1,46 @@
+# Gambas Form File 3.0
+
+{ Form Form
+  MoveScaled(0,0,46,29)
+  { RadioButtonIzqSup RadioButton
+    MoveScaled(4,6,2,3)
+    Visible = False
+  }
+  { Label1 Label
+    MoveScaled(4,1,28,3)
+    Text = ("Situacion de la barra")
+  }
+  { RadioButtonDerSup RadioButton
+    MoveScaled(22,6,3,3)
+    Visible = False
+  }
+  { RadioButtonIzqCen RadioButton
+    MoveScaled(4,10,3,3)
+    Value = True
+  }
+  { RadioButtonDerCen RadioButton
+    MoveScaled(22,10,3,3)
+  }
+  { RadioButtonIzqInf RadioButton
+    MoveScaled(4,14,3,3)
+    Visible = False
+  }
+  { RadioButtonDerInf RadioButton
+    MoveScaled(22,14,3,3)
+    Visible = False
+  }
+  { RadioButtonCenSup RadioButton
+    MoveScaled(12,6,3,3)
+    Visible = False
+  }
+  { RadioButtonCenInf RadioButton
+    MoveScaled(12,14,3,3)
+    Visible = False
+  }
+  { ToolButton1 ToolButton
+    MoveScaled(6,22,16,4)
+    Text = ("Aceptar")
+    Picture = Picture["icon:/32/ok"]
+    Border = True
+  }
+}

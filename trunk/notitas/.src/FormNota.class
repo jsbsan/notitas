@@ -1,0 +1,22 @@
+' Gambas class file
+
+Public Sub _new()
+  
+End
+
+Public Sub Form_Open()
+  
+End
+
+Public Sub ColorButtonLetra_Change()
+  'letra
+
+  TextArea1.Foreground = ColorButtonLetra.Value
+  
+End
+
+Public Sub ColorButtonFondo_Change()
+  
+  TextArea1.Background = ColorButtonFondo.Value
+  
+End
